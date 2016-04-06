@@ -38,3 +38,6 @@ If so, then you should be able to travel to [localhost:5000] in a browser, and i
 [Ansible]: https://www.ansible.com/
 [git-repo-url]: <https://github.com/wakewalker/eecs767.git>
 [localhost:5000]: http://localhost:5000
+
+
+RawTextData.py and FullTextFiles.py ask the user for the directory location of HTML files to parse.  A list of files in the directory is printed and the user is asked to press Enter to begin.  A Temp_Dir subdirectory is created with RawTextData.py outputting files with a .raw extension, while FullTextFiles.py outputs files with a .ftxt extension.
